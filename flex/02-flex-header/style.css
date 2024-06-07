@@ -41,6 +41,15 @@ a {
   width: 230px;
 }
 
-.right-links ul {
+.right-links {
   display: flex;
+  width: 250px;
+}
+
+.right-links ul {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  width: 230px;
 }
