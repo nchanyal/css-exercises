@@ -1,6 +1,7 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
 }
 
 .logo {
@@ -9,6 +10,9 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: auto;
+  border-top: 10px solid papayawhip;
+  border-bottom: 10px solid papayawhip;
 }
 
 ul {
@@ -22,4 +26,21 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.left-links {
+  display: flex;
+  width: 250px;
+}
+
+.left-links ul {
+  margin: auto;
+  display: flex;
+  padding-left: 0px;
+  justify-content: space-between;
+  width: 230px;
+}
+
+.right-links ul {
+  display: flex;
 }
