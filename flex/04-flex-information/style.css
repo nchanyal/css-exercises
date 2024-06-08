@@ -5,6 +5,9 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .title {
@@ -15,6 +18,19 @@ img {
 
 .plant-info {
   display: flex;
+  margin-top: 32px;
+  justify-content: space-around;
+  /* margin-left: 50px; */
+  /* margin-right: 50px; */
+}
+
+.plant-info div {
+  width: 200px;
+  height: 140px;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
