@@ -90,3 +90,8 @@ button.cancel {
 .right {
   width: 408px;
 }
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
