@@ -33,6 +33,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  height: 170px;
 }
 
 .icon {
@@ -89,9 +90,20 @@ button.cancel {
 
 .right {
   width: 408px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .top {
   display: flex;
   justify-content: space-between;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.text {
+  font-size: 14px;
 }
