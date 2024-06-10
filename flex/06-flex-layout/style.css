@@ -24,3 +24,36 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header,
+.footer{
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  gap: 10px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: rgb(87, 87, 87);
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
