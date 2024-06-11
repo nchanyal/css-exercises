@@ -63,3 +63,18 @@ a:active {
   color: white;
   font-size: 24px;
 }
+
+.cards {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  flex-basis: 210px;
+  min-width: 210px;
+  height: 200px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
